@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/cuenta"
+        android:icon="@drawable/ic_man_user"
+        android:title="Cuenta"></item>
+
+    <item
+        android:id = "@+id/notificaciones"
+        android:title="Notificaciones"
+        android:icon="@drawable/ic_turn_notifications_on_button"
+        ></item>
+
+    <item
+        android:id = "@+id/nanimales"
+        android:title="Animales"
+        android:icon="@drawable/ic_animalicon"
+        ></item>
+    <item
+        android:id = "@+id/nveterinario"
+        android:title="Veterinario"
+        android:icon="@drawable/ic_veterinarian"
+        ></item>
+    <item
+        android:id = "@+id/ninstalaciones"
+        android:title="Instalaciones"
+        android:icon="@drawable/ic_instalation"
+        ></item>
+    <item
+        android:id = "@+id/ncompras"
+        android:title="Compras"
+        android:icon="@drawable/ic_shopping_cart"
+        ></item>
+    <item
+        android:id = "@+id/ndespensa"
+        android:title="Despensa"
+        android:icon="@drawable/ic_fertilizer"
+        ></item>
+    <item
+        android:id = "@+id/ngastos"
+        android:title="Gastos"
+        android:icon="@drawable/ic_coins"
+        ></item>
+
+    </group>
+</menu>

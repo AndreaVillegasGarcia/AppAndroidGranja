@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rocio.farmapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".SplashScreen"
+            android:label="FARM APP"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".animales" />
+        <activity android:name=".visualizaranimales" />
+        <activity android:name=".anyadiranimal" />
+        <activity android:name=".seleccionanimal" />
+        <activity android:name=".detallesanimal" />
+        <activity android:name=".editaranimal" />
+        <activity android:name=".gestioninstalaciones" />
+        <activity android:name=".pienso" />
+        <activity android:name=".agua" />
+        <activity android:name=".limpieza" />
+        <activity android:name=".plagas" />
+        <activity android:name=".gestionveterinario" />
+        <activity android:name=".gestiongestacion" />
+        <activity android:name=".gestioncompras" />
+        <activity android:name=".visualizarcorral" />
+        <activity android:name=".seleccionanimalver" />
+        <activity android:name=".gestiondespensa" />
+        <activity android:name=".gestiontemperatura" />
+        <activity android:name=".gestionocupacion" />
+        <activity android:name=".selecionanimalocupacion" />
+        <activity android:name=".controlgastos" />
+        <activity android:name=".historialanalisisagua" />
+        <activity android:name=".historialpienso" />
+        <activity android:name=".seleccionanimaldarbaja" />
+        <activity android:name=".selecionanimalanyadirgestacion" />
+        <activity android:name=".selecionanimalvergestacion" />
+        <activity android:name=".ultimasvacunas" />
+        <activity android:name=".proximavacuna" />
+        <activity android:name=".historialnacimientos" />
+        <activity android:name=".fichaveterinario" />
+        <activity android:name=".anyadiranimalcorral" />
+        <activity android:name=".visualizaranimalescorral" />
+        <activity android:name=".visualizaranimalesengestacion" />
+        <activity android:name=".visualizaranimalesparages" />
+        <activity android:name=".notificaciones"></activity>
+    </application>
+
+</manifest>
